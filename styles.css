@@ -1,10 +1,36 @@
 /* X-ray wirefram css */
 * {
   /* Faint red borders on everything */
-  width: 90%;
-  background-color: gainsboro;
+  max-width: 1700px;
+  max-height: 900px;
+  height: 90%;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(240, 127, 52, 0.305),
+    rgba(100, 87, 11, 0.4),
+    rgb(33, 49, 17)
+  );
+  border-radius: 15px;
 }
 .card {
-  border: 1px solid rgba(255, 0, 0, 0.3);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
   border-radius: 8px;
+  place-items: center;
+}
+#trigger {
+  display: grid;
+  align-items: center;
+  width: 45%;
+  height: 15%;
+  border-radius: 15px;
+}
+#display {
+  text-align: center;
+  align-items: center;
 }
