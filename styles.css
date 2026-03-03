@@ -13,6 +13,7 @@ body {
     rgba(100, 87, 11, 0.4),
     rgb(33, 49, 17)
   );
+border-color: black;
   border-radius: 15px;
 }
 .card {
@@ -24,6 +25,7 @@ body {
   place-items: center;
 }
 #trigger {
+background-color: transparent;
   display: grid;
   align-items: center;
   width: 45%;
