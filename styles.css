@@ -1,0 +1,10 @@
+/* X-ray wirefram css */
+* {
+  /* Faint red borders on everything */
+  width: 90%;
+  background-color: gainsboro;
+}
+.card {
+  border: 1px solid rgba(255, 0, 0, 0.3);
+  border-radius: 8px;
+}
